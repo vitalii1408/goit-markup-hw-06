@@ -193,7 +193,6 @@ img {
 
 /**main bloc*/
 
-.main {}
 
 /**section1*/
 
@@ -454,15 +453,11 @@ text-transform: capitalize;
   width: 264px;
 }
 
-.social-icon {}
-
 /**--portfolio--*/
 
 /**--Header section--*/
 
 /**btn*/
-
-.sex-portfolio {}
 
 .portfolio-btn {
   position: relative;
@@ -1046,16 +1041,12 @@ display: none;
 }
 .customers-all {
   gap: 24px;
+  row-gap: 72px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .customers-all-list {
-  width: calc((100% - 24px) / 3);
-
-}
-.customers-all-svg{
-  
+  width: calc((100% - 24px) / 2);
 }
 } 
  /**------------ Tablet-------------- */
@@ -1066,13 +1057,17 @@ display: none;
 .one-sex-all{
   display: none;
 }
-.lint{
+.team{
   display: flex;
  flex-wrap: wrap; 
- width: 100%;
  gap: 24px;
  padding-left: 50px;
   padding-right: 50px;
+  width: 100%;
+}
+.all{
+	
+	width: calc((100% - 24px)/2);
 }
 .one-sex{
    width: calc((100% - 24px)/2);
@@ -1080,6 +1075,7 @@ display: none;
 .sec-es-wd {
   display: none;
 } 
+/**------------ section5-------------- */
 .customers {
   padding: 96px 0;
 }
@@ -1089,8 +1085,6 @@ display: none;
   display: flex;
  flex-wrap: wrap;
  justify-content: center;
- padding-left: 50px;
- padding-right: 50px;
  max-width: 100%;
 }
 .customers-all-list {
@@ -1105,6 +1099,14 @@ display: none;
   padding-right: 15px;
  } 
  /**------------ section2-------------- */
+ .lint{
+	display: flex;
+	width: 100%;
+	gap: 24px;
+ }
+ .one-sex {
+  width: calc((100% - 72px) / 4);
+}
  .one-sex-all {
   display: flex;
   align-items: center;
@@ -1123,9 +1125,6 @@ display: none;
 }
 .section-cpdt {
   padding: 120px 0;
-}
-.one-sex {
-  width: calc((100% - 72px) / 4);
 }
 .cpdt {
   color: var(--accent-color);
@@ -1158,7 +1157,7 @@ display: none;
   width: calc((100% - 48px) / 2);
 }
 /**------------ section4-------------- */
-.lint {
+.team {
   display: flex;
   gap: 24px;
 }
@@ -1168,10 +1167,6 @@ display: none;
 .customers-all {
   gap: 24px;
   display: flex;
-}
-
-.customers-all-list {
-  width: calc((100% - 96px) / 4);
 }
 
 /**-------------section5---------**/
@@ -1187,6 +1182,3 @@ display: none;
   width: calc((100% - 120px) / 6);
 }
 }
-
-
-
