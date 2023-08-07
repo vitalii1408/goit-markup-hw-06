@@ -675,6 +675,7 @@ text-transform: capitalize;
 }
 
 .footer-end {
+  font-weight: 400;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -745,8 +746,8 @@ letter-spacing: 0.02em;
   
 }
 .subscribe-input{
-  width: 100%;
-  height: 40px;
+  width: 264px;
+height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
@@ -1088,16 +1089,27 @@ width: 165px;
   display: none;
 }
 .team{
-  display: flex;
+   display: flex;
  flex-wrap: wrap; 
  gap: 24px;
- padding-left: 50px;
-  padding-right: 50px;
+ row-gap: 64px;
   width: 100%;
+  padding-left:50px;
+  padding-right: 50px;
 }
-.all{
-	
+.all{	
 	width: calc((100% - 24px)/2);
+}
+.section-cpdt {
+    padding: 96px 0;
+  }
+
+.lint{  display: flex;
+ flex-wrap: wrap; 
+ gap: 24px;
+ row-gap: 72px;
+  width: 100%;
+
 }
 .one-sex{
    width: calc((100% - 24px)/2);
@@ -1121,11 +1133,15 @@ width: 165px;
   width: calc((100% - 24px*2) / 3);
 }/**-------------footer---------**/
 .footer {
-  padding-top: 97.5px;
-  padding-bottom: 96px;
+  padding: 97.5px 148px 96px 92px ;
+}
+.footer-class {
+  display: flex;
+ flex-wrap: wrap;
 }
 .footer-logo-all{
-	padding-left: 102px;
+  padding-right: 24px;
+	
 }
 .footer-logo {
 display: flex;
@@ -1136,7 +1152,10 @@ margin-bottom: 17.5px;
 	margin-bottom:72px;
 }
 .social {
-display: flex;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
  
 }
 .social-media {
@@ -1144,16 +1163,31 @@ display: flex;
   text-align: center;
 }
 .social-list {
-  display: flex;
+  display:flex;
   gap: 16px;
   margin-bottom: 72px;
     justify-content: center;
 }
+.subscribe{
+  display: block;
+   text-align:left; 
+}
+.subscribe-label {
+  
+  padding-right: 24px;
+
+
+}
+.subscribe-form{
+  display: flex;
+  width: 100%;
+}
 .subscribe-button{
-width: 165px;
+
  display: flex;
  justify-content: center;
  align-items: center;	
+ max-width: 165px;
 }
 }
  /**------------ Desktop-------------- */
