@@ -1061,7 +1061,8 @@ justify-content: center;
 margin-bottom: 17.5px;	
 }
 .footer-end {
-	margin-bottom:72px;
+	padding-bottom:72px;
+  margin: 0 auto;
 }
 .social-media {
 	margin-bottom: 16px;
