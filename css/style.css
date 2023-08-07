@@ -232,7 +232,6 @@ img {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  margin-top: 48px;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -1001,6 +1000,21 @@ margin-bottom: 24px;
  .container {
    max-width: 428px;
  }
+ /**----------section1-----------------*/
+ .sec-title {
+  color: var(--txt-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  max-width: 320px;
+  margin: 0px auto;
+  margin-bottom: 72px;
+  padding-top: 72px;
+}
+.sec-button{
+  margin-bottom: 112px;
+}
 .one-sex-all{
   display: none;
 }
@@ -1066,10 +1080,18 @@ width: 165px;
  .container {
    max-width: 758px;
  } 
-.one-sex-all{
+ /**----------section1-----------------*/
+ .sec-title {
+  padding-top: 112px;
+  margin-bottom: 36px;
+ }
+ .sec-button{
+  margin-bottom: 112px;
+}
+.one-sex-all {
   display: none;
 }
-.team{
+.team {
    display: flex;
  flex-wrap: wrap; 
  gap: 24px;
@@ -1179,6 +1201,16 @@ margin-bottom: 17.5px;
    padding-left: 15px;
   padding-right: 15px;
  } 
+  /**----------section1-----------------*/
+ .sec-title {
+  max-width: 496px;
+  margin: 0px auto;
+  padding-top: 188px;
+  margin-bottom: 48px;
+}
+.sec-button{
+  margin-bottom: 188px;
+}
  /**------------ section2-------------- */
  .lint{
 	display: flex;
