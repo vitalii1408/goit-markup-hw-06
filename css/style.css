@@ -623,19 +623,7 @@ text-transform: capitalize;
 .footer {
   background-color: #2e2f42;
   padding: 96px 0;
-
 }
-
-.footer-class {
-	
-
-	
-}
-
-.footer-logo-all {
-
-}
-
 .footer-logo {
   color: #4d5ae5;
   font-size: 18px;
@@ -645,13 +633,10 @@ text-transform: capitalize;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-bottom: 16px;
-
 }
-
 .footer-logo:hover {
   color: #404bbf;
 }
-
 .footer-logo:focus {
   color: #404bbf;
 }
@@ -683,11 +668,6 @@ text-transform: capitalize;
   width: 264px;
   
 }
-
-.social {
- 
-}
-
 .social-media {
   font-weight: 500;
   font-size: 16px;
@@ -1132,7 +1112,8 @@ width: 165px;
 }
 .customers-all-list {
   width: calc((100% - 24px*2) / 3);
-}/**-------------footer---------**/
+}
+/**-------------footer---------**/
 .footer {
   padding: 97.5px 148px 96px 92px ;
 }
@@ -1280,5 +1261,23 @@ margin-bottom: 17.5px;
 }
 .customers-all-list {
   width: calc((100% - 120px) / 6);
+}
+/**-------------footer---------**/
+.footer {
+   padding: 100px 0;
+}
+.footer-class {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo{
+  margin-bottom: 17.5px;
+}
+.footer-logo-all {
+  margin-right: 120px;
+}
+.social {
+  display: block;
+  padding-right: 80px;
 }
 }
