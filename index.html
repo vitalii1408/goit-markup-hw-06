@@ -137,7 +137,36 @@
 					<h2 class="sec-ot-text">Our Team</h2>
 					<ul class="team list">
 						<li class="all list">
-							<img src="./images/home/imag5.jpg" alt="Mark Guerrero" width="264" height="260" />
+						<picture>
+              <source
+                srcset="
+                  ./images/home/imag5.jpg    1x,
+                  ./images/home/imag5.jpg-2x 2x
+                "
+                media="(min-width: 1166px)"
+              />
+              <source
+                srcset="
+                  ./images/home/imag5-tab.jpg    1x,
+                  ./images/home/imag5-tab-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/home/imag5-mob.jpg    1x,
+                  ./images/chocolate-mob-2x.jpeg 2x
+                "
+                media="(min-width: 320px)"
+              />
+                <img
+				     src="./images/home/imag5.jpg" 
+					 alt="Mark Guerrero" 
+					width="264" 
+					height="260" />
+              
+            </picture>
+							
 							<div class="container mark">
 								<h3 class="com">Mark Guerrero</h3>
 								<p class="all-txt">Product Designer</p>
