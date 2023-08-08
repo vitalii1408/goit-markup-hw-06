@@ -1353,6 +1353,9 @@ margin-bottom: 17.5px;
   display: flex;
   gap: 24px;
 }
+.all{	
+	width: calc((100% - 72px)/4);
+}
 .sec-ot{
  padding: 120px 0; 
 }
