@@ -933,6 +933,9 @@ justify-content: space-between;
 .menu-icon {
 }
 .mob-menu {
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
   background:  #FFF;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 position: fixed;
@@ -971,28 +974,29 @@ text-transform: capitalize;
   
 }
 .mob-menu-com {
-  color:  #434455;
+
+margin-bottom: 48px;
+}
+.mob-menu-com-linc { 
+   color:  #434455;
 font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
-margin-bottom: 48px;
 
 }
-.mob-menu-com-linc {
-}
 .mob-menu-tel-linc {
- color: #4D5AE5;
+margin-bottom: 40px;
+}
+.linc-com-tel {
+   color: #4D5AE5;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 40px;
-}
-.linc-com-tel {
 }
 .mob-socials {display: flex;
 gap: 56px;
