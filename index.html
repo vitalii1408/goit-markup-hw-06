@@ -50,14 +50,16 @@
 						</li>
 					</ul>
 				</address>
-				<button type="button" class="menu-open-btn">
+				<button type="button " class="menu-open-btn js-open-menu"
+				aria-expanded="false"
+                aria-controls="mobile-menu">
 					<svg class="menu-icon" width="32" height="23">
 						<use href="./images/icons.svg#icon-symbol-defs"></use>
 					</svg>
 				</button>
-				<div class="mob-menu">
+				<div class="mob-menu is-hidden js-menu-container">
 					<div>
-					<button type="button" class="menu-close-btn" >
+					<button type="button" class="menu-close-btn js-close-menu">
 					    <svg class="modal-icon" width="8" height="8">
 						<use href="./images/icons.svg#icon-close"></use>
 					    </svg>
@@ -683,6 +685,13 @@
 				</form>
 		</div>
 		</div>
+		 <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+		<script defer src="js/mobile-menu.js"></script>
 		<script src="./js/modal.js"></script>
 	</body>
 
