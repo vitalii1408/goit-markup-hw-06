@@ -50,78 +50,80 @@
 						</li>
 					</ul>
 				</address>
-				<button type="button " class="menu-open-btn js-open-menu"
-				aria-expanded="false"
-                aria-controls="mobile-menu">
+				<button type="button" class="menu-open-btn" data-menu-open aria-expanded="false"
+					aria-controls="mobile-menu">
 					<svg class="menu-icon" width="32" height="23">
 						<use href="./images/icons.svg#icon-symbol-defs"></use>
 					</svg>
 				</button>
-				<div class="mob-menu is-hidden js-menu-container">
-					<div>
-					<button type="button" class="menu-close-btn js-close-menu">
-					    <svg class="modal-icon" width="8" height="8">
-						<use href="./images/icons.svg#icon-close"></use>
-					    </svg>
-				    </button>
-				        <ul class="mob-menu-lict list">
-						    <li class="mob-menu-item">
-							   <a class="menu-spc current link" href="./index.html">Studio</a>
-						    </li>
-						    <li class="mob-menu-item">
-							   <a class="menu-spc link" href="./portfolio.html">Portfolio</a>
-						    </li>
-						    <li class="mob-menu-item">
-							<a class="menu-spc link" href="">Contacts</a>
-						</li>
-					</ul>
-				</div>
-				<diiv>
-					<ul class="mob-menu-contacts list">
-						<li class="mob-menu-tel-linc">
-							<a class="linc-com-tel link" href="tel:+110001111111">+11 (000)
-								111-11-11</a>
-						</li>
-						<li class="mob-menu-com">
-							<a class="mob-menu-com-linc link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-						</li>
-					</ul>
-					<ul class="mob-socials link list">
-									<li class="mob-socials-item">
-										<a class="mob-socials-link link" href="" aria-label="instagram" target="_blank"
-											rel="noopener noreferrer">
-											<svg class="mob-socials-icon" width="24" height="24">
-												<use href="./images/icons.svg#icon-instagram"></use>
-											</svg>
-										</a>
-									</li>
-									<li class="mob-socials-item">
-										<a class="mob-socials-link link" href="" aria-label="twitter"
-											target="_blank" rel="noopener noreferrer">
-											<svg class="mob-socials-icon" width="24" height="24">
-												<use href="./images/icons.svg#icon-twitter-1"></use>
 
-											</svg>
-										</a>
-									</li>
-									<li class="mob-socials-item">
-										<a class="mob-socials-link link" href="" aria-label="facebook" target="_blank"
-											rel="noopener noreferrer">
-											<svg class="mob-socials-icon" width="24" height="24">
-												<use href="./images/icons.svg#icon-facebook"></use>
-											</svg>
-										</a>
-									</li>
-									<li class="mob-socials-item">
-										<a class="mob-socials-link link" href="" aria-label="linkedin"
-											target="_blank" rel="noopener noreferrer">
-											<svg class="mob-socials-icon" width="24" height="24">
-												<use href="./images/icons.svg#icon-linkedin"></use>
-											</svg>
-										</a>
-									</li>
-								</ul>
-				</div>
+
+				<div class="mob-menu is-hidden" data-menu>
+					<div>
+						<button type="button" class="menu-close-btn" data-menu-close>
+							<svg class="modal-icon" width="8" height="8">
+								<use href="./images/icons.svg#icon-close"></use>
+							</svg>
+						</button>
+						<ul class="mob-menu-lict list">
+							<li class="mob-menu-item">
+								<a class="menu-spc current link" href="./index.html">Studio</a>
+							</li>
+							<li class="mob-menu-item">
+								<a class="menu-spc link" href="./portfolio.html">Portfolio</a>
+							</li>
+							<li class="mob-menu-item">
+								<a class="menu-spc link" href="">Contacts</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<ul class="mob-menu-contacts list">
+							<li class="mob-menu-tel-linc">
+								<a class="linc-com-tel link" href="tel:+110001111111">+11 (000)
+									111-11-11</a>
+							</li>
+							<li class="mob-menu-com">
+								<a class="mob-menu-com-linc link"
+									href="mailto:info@devstudio.com">info@devstudio.com</a>
+							</li>
+						</ul>
+						<ul class="mob-socials link list">
+							<li class="mob-socials-item">
+								<a class="mob-socials-link link" href="" aria-label="instagram" target="_blank"
+									rel="noopener noreferrer">
+									<svg class="mob-socials-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="mob-socials-item">
+								<a class="mob-socials-link link" href="" aria-label="twitter" target="_blank"
+									rel="noopener noreferrer">
+									<svg class="mob-socials-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-twitter-1"></use>
+
+									</svg>
+								</a>
+							</li>
+							<li class="mob-socials-item">
+								<a class="mob-socials-link link" href="" aria-label="facebook" target="_blank"
+									rel="noopener noreferrer">
+									<svg class="mob-socials-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="mob-socials-item">
+								<a class="mob-socials-link link" href="" aria-label="linkedin" target="_blank"
+									rel="noopener noreferrer">
+									<svg class="mob-socials-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -210,35 +212,22 @@
 					<h2 class="sec-ot-text">Our Team</h2>
 					<ul class="team list">
 						<li class="all list">
-						<picture>
-              <source
-                srcset="
+							<picture>
+								<source srcset="
                   ./images/home/imag5.jpg    1x,
                   ./images/home/imag5-2x.jpg 2x
-                "
-                media="(min-width: 1166px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1166px)" />
+								<source srcset="
                   ./images/home/imag5-tab.jpg    1x,
                   ./images/home/imag5-tab-2x.jpg 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+								<source srcset="
                   ./images/home/imag5-mob.jpg    1x,
                   ./images/home/imag5-mob-2x.jpg 2x
-                "
-                media="(min-width: 320px)"
-              />
-                <img
-				     src="./images/home/imag5.jpg" 
-					 alt="Mark Guerrero" 
-					width="264" 
-					/>
-              
-            </picture>	
+                " media="(min-width: 320px)" />
+								<img src="./images/home/imag5.jpg" alt="Mark Guerrero" width="264" />
+
+							</picture>
 							<div class="container mark">
 								<h3 class="com">Mark Guerrero</h3>
 								<p class="all-txt">Product Designer</p>
@@ -279,34 +268,22 @@
 								</ul>
 							</div>
 						</li>
-						<li class="all list"> <source
-                srcset="
+						<li class="all list">
+							<source srcset="
                   ./images/home/imag6.jpg    1x,
                   ./images/home/imag6-2x.jpg 2x
-                "
-                media="(min-width: 1166px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1166px)" />
+							<source srcset="
                   ./images/home/imag6-tab.jpg    1x,
                   ./images/home/imag6-tab-2x.jpg 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+							<source srcset="
                   ./images/home/imag6-mob.jpg    1x,
                   ./images/home/imag6-mob-2x.jpg 2x
-                "
-                media="(min-width: 320px)"
-              />
-                <img
-				     src="./images/home/imag6.jpg" 
-					 alt="Tom Ford" 
-					width="264" 
-					 />
-              
-            </picture>	
+                " media="(min-width: 320px)" />
+							<img src="./images/home/imag6.jpg" alt="Tom Ford" width="264" />
+
+							</picture>
 							<div class="container mark">
 								<h3 class="com">Tom Ford</h3>
 								<p class="all-txt">Frontend Developer</p>
@@ -348,33 +325,20 @@
 							</div>
 						</li>
 						<li class="all list">
-							 <source
-                srcset="
+							<source srcset="
                   ./images/home/imag7.jpg    1x,
                   ./images/home/imag7-2x.jpg 2x
-                "
-                media="(min-width: 1166px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1166px)" />
+							<source srcset="
                   ./images/home/imag7-tab.jpg    1x,
                   ./images/home/imag7-tab-2x.jpg 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+							<source srcset="
                   ./images/home/imag7-mob.jpg    1x,
                   ./images/home/imag7-mob-2x.jpg 2x
-                "
-                media="(min-width: 320px)"
-              />
-                <img
-				     src="./images/home/imag7.jpg" 
-					 alt="Camila Garcia" 
-					width="264" 
-				    />
-            </picture>	
+                " media="(min-width: 320px)" />
+							<img src="./images/home/imag7.jpg" alt="Camila Garcia" width="264" />
+							</picture>
 							<div class="container mark">
 								<h3 class="com">Camila Garcia</h3>
 								<p class="all-txt">Marketing</p>
@@ -417,33 +381,20 @@
 							</div>
 						</li>
 						<li class="all list">
-							 <source
-                srcset="
+							<source srcset="
                   ./images/home/imag8.jpg    1x,
                   ./images/home/imag8-2x.jpg 2x
-                "
-                media="(min-width: 1166px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1166px)" />
+							<source srcset="
                   ./images/home/imag8-tab.jpg    1x,
                   ./images/home/imag8-tab-2x.jpg 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+							<source srcset="
                   ./images/home/imag8-mob.jpg    1x,
                   ./images/home/imag8-mob-2x.jpg 2x
-                "
-                media="(min-width: 320px)"
-              />
-                <img
-				     src="./images/home/imag8.jpg" 
-					 alt="Daniel Wilson" 
-					width="264" 
-			    />
-            </picture>			
+                " media="(min-width: 320px)" />
+							<img src="./images/home/imag8.jpg" alt="Daniel Wilson" width="264" />
+							</picture>
 							<div class="container mark">
 								<h3 class="com">Daniel Wilson</h3>
 								<p class="all-txt">UI Designer</p>
@@ -667,17 +618,17 @@
 					<!--5 section-->
 
 					<input class="modal-checkbox">
-						<input type="checkbox" name="user-privacy" id="user-privacy" value="true"
-							class="modal-check visually-hidden" />
-						<label for="user-privacy" class="check-text">
-							<span class="modal-span">
-								<svg class="check-icon " width="10" height="8">
-									<use href="./images/icons.svg#icon-check"></use>
-								</svg>
-							</span>
-							I accept the terms and conditions of the
-							<a href="" class="privacy-link">Privacy Policy</a>
-						</label>
+					<input type="checkbox" name="user-privacy" id="user-privacy" value="true"
+						class="modal-check visually-hidden" />
+					<label for="user-privacy" class="check-text">
+						<span class="modal-span">
+							<svg class="check-icon " width="10" height="8">
+								<use href="./images/icons.svg#icon-check"></use>
+							</svg>
+						</span>
+						I accept the terms and conditions of the
+						<a href="" class="privacy-link">Privacy Policy</a>
+					</label>
 					</input>
 					<!--6 section-->
 
@@ -685,13 +636,7 @@
 				</form>
 		</div>
 		</div>
-		 <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-		<script defer src="js/mobile-menu.js"></script>
+		<script src="js/mobile-menu.js"></script>
 		<script src="./js/modal.js"></script>
 	</body>
 
