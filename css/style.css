@@ -1028,6 +1028,7 @@ display: none;
  row-gap: 72px;
   width: 100%;
   padding: 0px 50px;
+  justify-content: center;
 }
 /**-------------section5---------**/
 .customers {
