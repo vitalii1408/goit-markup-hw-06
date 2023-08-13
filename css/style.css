@@ -505,14 +505,13 @@ margin: 0 auto;
 .sex-img {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  /**column-gap: 24px;dec*/
   row-gap: 48px;
-  padding-bottom: 120px;
+  /**padding-bottom: 120px;dec*/
 }
 
 .sex-img-all {
   display: block;
-  width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1084,6 +1083,12 @@ width: 165px;
   flex-wrap: wrap;
   justify-content: flex-start;
  }
+ .sex-img {
+  padding-bottom: 48px;
+ }
+ .sex-img-all{
+  width: 100%;
+ }
 } 
  /**------------ Tablet-------------- */
 @media screen and (min-width: 768px) {
@@ -1342,6 +1347,13 @@ margin-bottom: 17.5px;
   justify-content: center;
   align-items: center;
 }
+.sex-img{
+  column-gap: 24px;
+  row-gap: 72px;
+}
+.sex-img-all{
+  width: calc((100% - 24px) / 2);
+}
 }
  /**------------ Desktop-------------- */
 @media screen and (min-width: 1166px) {
@@ -1588,5 +1600,12 @@ margin-bottom: 17.5px;
 margin-bottom: 72px;
 padding-top: 96px;
 justify-content: flex-start;
+}
+.sex-img {
+  padding-bottom: 120px;
+  column-gap: 24px;
+}
+.sex-img-all {
+  width: calc((100% - 48px) / 3);
 }
 }
