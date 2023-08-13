@@ -450,10 +450,7 @@ margin: 0 auto;
 .btn {
   display: flex;
   gap: 24px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 72px;
-  padding-top: 96px;
+  row-gap: 16;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1078,6 +1075,15 @@ width: 165px;
  justify-content: center;
  align-items: center;	
 }
+
+ /**------------ portfolio-------------- */
+
+ .btn {
+  margin-bottom: 48px;
+  padding-top: 56px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ }
 } 
  /**------------ Tablet-------------- */
 @media screen and (min-width: 768px) {
@@ -1327,6 +1333,15 @@ margin-bottom: 17.5px;
  align-items: center;	
  max-width: 165px;
 }
+
+/**------------ Portfolio-------------- */
+
+.btn {
+  margin-bottom:78px ;
+  padding-top: 78px;
+  justify-content: center;
+  align-items: center;
+}
 }
  /**------------ Desktop-------------- */
 @media screen and (min-width: 1166px) {
@@ -1565,5 +1580,13 @@ margin-bottom: 17.5px;
 .social {
   display: block;
   padding-right: 80px;
+}
+
+/**------------ Portfolio-------------- */
+
+.btn {
+margin-bottom: 72px;
+padding-top: 96px;
+justify-content: flex-start;
 }
 }
