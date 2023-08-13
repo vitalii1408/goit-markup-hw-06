@@ -945,7 +945,6 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
-text-transform: capitalize;
 }
 .mob-socials {display: flex;
 gap: 56px;
@@ -1090,8 +1089,9 @@ width: 165px;
   display: none;
   }
   .menu{
- display: block; 
+ display: flex; 
  color: #434455;
+ gap: 12px;
 
 }
 .header-nav{
@@ -1121,9 +1121,6 @@ letter-spacing: 0.02em;
   color: #404bbf;
 }
 
-.header-cont {
-  display: flex;
-}
 .mailo {
   display: flex;
    row-gap: 12px;
@@ -1131,7 +1128,6 @@ letter-spacing: 0.02em;
     justify-content: flex-end;
 }
 .header-spc {
-  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -1175,7 +1171,6 @@ letter-spacing: 0.02em;
   letter-spacing: 0.04em;
   font-size: 12px;
   font-weight: 400;
-  padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-style: normal;
 }
@@ -1369,9 +1364,9 @@ margin-bottom: 17.5px;
 }
 .mailo {
   display: flex;
-   row-gap: 12px;
-      flex-wrap: wrap;
-    justify-content: flex-end;
+  gap: 40px;
+}
+    
 }
 .header-spc {
   display: block;
@@ -1418,7 +1413,6 @@ margin-bottom: 17.5px;
   letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 400;
-  padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-style: normal;
 }
