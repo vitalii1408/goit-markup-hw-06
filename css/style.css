@@ -1089,9 +1089,8 @@ width: 165px;
   display: none;
   }
   .menu{
- display: flex; 
+ display: block; 
  color: #434455;
- gap: 12px;
 
 }
 .header-nav{
@@ -1121,13 +1120,17 @@ letter-spacing: 0.02em;
   color: #404bbf;
 }
 
+.header-cont {
+  display: flex;
+}
 .mailo {
   display: flex;
-   row-gap: 12px;
+   gap: 12px;
       flex-wrap: wrap;
     justify-content: flex-end;
 }
 .header-spc {
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -1335,7 +1338,7 @@ margin-bottom: 17.5px;
   .menu-open-btn{
   display: none;
   }
-  .menu{
+  .adres{
  display: block; 
  color: #434455;
 
@@ -1344,9 +1347,6 @@ margin-bottom: 17.5px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-}
-.adres {
-  display: block;
 }
 .header-logo-link{
      margin-right: 120px;
@@ -1364,9 +1364,9 @@ margin-bottom: 17.5px;
 }
 .mailo {
   display: flex;
-  gap: 40px;
-}
-    
+   gap: 40px;
+      flex-wrap: wrap;
+    justify-content: flex-end;
 }
 .header-spc {
   display: block;
@@ -1414,7 +1414,6 @@ margin-bottom: 17.5px;
   font-size: 16px;
   font-weight: 400;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-style: normal;
 }
 .linc-com-tel:hover {
   color: #404bbf;
