@@ -1090,7 +1090,7 @@ width: 165px;
  }
  .modal {
   width: 392px;
-  
+
  }
 } 
  /**------------ Tablet-------------- */
@@ -1610,4 +1610,9 @@ justify-content: flex-start;
 .sex-img-all {
   width: calc((100% - 48px) / 3);
 }
+}
+@media screen and (max-width: 427px){
+  .linc-com-tel {
+    font-size: 34px;
+  }
 }
