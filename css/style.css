@@ -1246,6 +1246,7 @@ letter-spacing: 0.02em;
  row-gap: 64px;
   width: 100%;
   padding: 0px 50px;
+  flex-direction: row;
 }
 .all{	
 	width: calc((100% - 24px)/2);
@@ -1554,9 +1555,9 @@ margin-bottom: 17.5px;
   display: flex;
   gap: 24px;
   padding: 0;
+  flex-direction: row;
 }
 .all{	
-  display: block;
   width: calc((100% - 72px)/4);
 }
 .sec-ot{
