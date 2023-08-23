@@ -871,6 +871,7 @@ display: none;
  }
 .menu-icon {
 }
+
 .mob-menu {
   display: flex;
   flex-direction: column;
@@ -890,9 +891,10 @@ padding-left: 40px;
 transform: translateX(100%);
 transition: transform 250ms ease-in-out;
 }
-.is-open{
-  transform: translateX(0); 
-}
+.mob-menu.is-open{
+  transform: translateX(0);
+ }
+
 .modal-icon {
 }
 .mob-menu-lict {
