@@ -555,11 +555,11 @@ margin: 0 auto;
   overflow: hidden;
 }
 
-.all:hover .keis-hover-txt {
+.all-port:hover .keis-hover-txt {
   transform: translateY(0);
 }
 
-.all:focus .keis-hover-txt {
+.all-port:focus .keis-hover-txt {
   transform: translateY(0);
 }
 
