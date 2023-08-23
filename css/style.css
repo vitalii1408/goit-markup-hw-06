@@ -1502,7 +1502,7 @@ margin-bottom: 17.5px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-  
+    }  
  .sec-title {
   max-width: 496px;
   margin: 0px auto;
@@ -1512,9 +1512,7 @@ margin-bottom: 17.5px;
 }
  /**------------ section2-------------- */
  .lint{
-	display: flex;
-	width: 100%;
-	gap: 24px;
+  flex-wrap: nowrap;
  }
  .one-sex {
  display: block;
@@ -1600,19 +1598,32 @@ margin-bottom: 17.5px;
 .footer {
    padding: 100px 0;
 }
+.footer-end{
+  padding: 0;
+  margin: 0;
+}
 .footer-class {
   display: flex;
-  align-items: baseline;
+  justify-content: space-between;
 }
 .footer-logo{
   margin-bottom: 17.5px;
 }
 .footer-logo-all {
   margin-right: 120px;
+  padding-right: 0;
 }
 .social {
-  display: block;
-  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.subscribe-label{
+  margin-right: 24px;
+  padding: 0;
+}
+.social-list{
+  margin-bottom: 0;
 }
 
 /**------------ Portfolio-------------- */
