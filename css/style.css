@@ -397,6 +397,7 @@ height: 40px;
    border-radius: 4px;
    color: #ffffff;
    padding-left: 16px;
+   margin-bottom: 16px;
 }
 .subscribe-button{
 
@@ -1062,7 +1063,6 @@ margin-bottom: 17.5px;
     justify-content: center;
 }
 .subscribe-input{
-  width: 100%;
   color: #FFF;
 font-family: Roboto;
 font-size: 12px;
@@ -1309,11 +1309,12 @@ letter-spacing: 0.02em;
 /**-------------footer---------**/
 
 .footer {
-  padding: 97.5px 148px 96px 92px ;
+  padding: 96px 0;
 }
 .footer-class {
   display: flex;
  flex-wrap: wrap;
+ max-width: 552px;
 }
 .footer-logo-all{
   padding-right: 24px;
@@ -1325,6 +1326,7 @@ margin-bottom: 17.5px;
 }
 .footer-end {
 	margin-bottom:72px;
+  padding-bottom: 0;
 }
 .social {
     display: flex;
