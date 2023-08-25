@@ -1137,6 +1137,13 @@ line-height: 1.16; /* 116.667% */
     gap: 56px;
     justify-content: center;
   }
+  .sec-title {
+    letter-spacing: 0.02em;   
+  }
+  .modal {
+  width: 392px;
+  height: 584px;
+  }
 }
 
  /**------------ Tablet-------------- */
@@ -1276,7 +1283,12 @@ letter-spacing: 0.02em;
   }
  
  .sec-title {
-  margin-bottom: 36px;
+margin-bottom: 36px;
+text-align: center;
+font-size: 56px;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 0.02em;
+max-width: 496px;
  }
  
 .one-sex-all {
@@ -1311,6 +1323,14 @@ letter-spacing: 0.02em;
 .sec-es-wd {
   display: none;
 } 
+.cpdt {
+  letter-spacing: 0.02em;
+}
+
+/**------------ section4-------------- */
+.sec-ot-text {
+  letter-spacing: 0.02em;
+}
 /**------------ section5-------------- */
 .customers-section{
   max-width: 552px;
@@ -1365,8 +1385,8 @@ margin-bottom: 17.5px;
 .social-list {
   display:flex;
   gap: 16px;
-  margin-bottom: 72px;
-    justify-content: center;
+ justify-content: center;
+ margin-bottom: 0;
 }
 .subscribe{
   display: block;
@@ -1508,6 +1528,8 @@ margin-bottom: 17.5px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   margin: 0 auto;
+  padding-top: 188px;
+padding-bottom: 188px;
  }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -1524,8 +1546,6 @@ margin-bottom: 17.5px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     margin: 0 auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
     }  
  .sec-title {
@@ -1600,6 +1620,9 @@ margin-bottom: 17.5px;
 }
 .all{	
   width: calc((100% - 72px)/4);
+}
+.com {
+  letter-spacing: 0.02em;
 }
 .sec-ot{
  padding: 120px 0;
