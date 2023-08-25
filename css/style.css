@@ -111,17 +111,6 @@ display: flex;
 
 /**section1*/
 
-
-.sec-title {
-  color: var(--txt-color);
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0px auto;
-}
-
 .sec-button {
   color: #ffffff;
   background-color: #4d5ae5;
@@ -918,7 +907,6 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
-
 }
 .mob-menu-tel-linc {
 margin-bottom: 40px;
@@ -971,30 +959,32 @@ letter-spacing: 0.02em;
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
      .hiro-cont {
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: rgba(46, 47, 66, 0.7);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
-    url(../images/home/office-mob-2x\ .jpg);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  margin: 0 auto;
-} 
-    }
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/home/office-mob-2x\ .jpg);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+      margin: 0 auto;
+      }
+    } 
+.hiro-cont-image {
+  
+}
+    
  /**----------section1-----------------*/
 
  .sec-title {
   color: var(--txt-color);
+  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
-  max-width: 320px;
-  margin: 0px auto;
+  letter-spacing: 0.03em;
   margin-bottom: 72px;
+  text-align: center;
 }
 .sec-button{
  
@@ -1079,6 +1069,7 @@ width: 165px;
  display: flex;
  justify-content: center;
  align-items: center;
+}
 
  /**------------ portfolio-------------- */
 
